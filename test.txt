@@ -1,0 +1,11 @@
+defprog fibo < a >
+blip
+  x <= 1 !
+  y <= 2 !
+  c <= 3 !
+  while < c lt a >
+    x <= x + y !
+    y <= x - y !
+    inc c !
+  elihw
+ret x blorp
